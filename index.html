@@ -44,42 +44,73 @@
     </header>
   </div>
 
-  <!-- Hero Section (Clean White) -->
+  <!-- Hero Section with Interactive Antigravity Canvas -->
   <section id="accueil" class="hero">
-    <div class="container hero-grid">
-      <div class="hero-left">
-        <span class="section-label">Supervision & Solutions Nouvelle Génération</span>
-        <h1 class="hero-title">
-          We code the future of your business
-        </h1>
-        <p class="hero-subtitle">
-          Nous unifions le développement sur mesure, l'Intelligence Artificielle et la Cybersécurité pour automatiser vos opérations, guider vos équipes et protéger votre croissance.
-        </p>
+    <!-- Interactive Background Canvas (Physics, 3D Cubes & Antigravity Particles) -->
+    <canvas id="antigravityCanvas" class="hero-canvas"></canvas>
 
-        <div class="hero-actions">
-          <a href="#contact" class="btn btn-blue open-modal-btn">Démarrer un projet</a>
-          <a href="#ecosysteme" class="btn btn-secondary">Découvrir l'écosystème</a>
+    <div class="container hero-container">
+      <!-- Google Antigravity-Style Announcement Pill -->
+      <div class="announcement-wrapper">
+        <a href="#ecosysteme" class="announcement-pill">
+          <span class="pill-badge">+ NOUVEAU</span>
+          <span class="pill-text">RAMES 2.0 disponible pour Entreprises & Startups</span>
+          <span class="pill-arrow">En savoir plus &rarr;</span>
+        </a>
+      </div>
+
+      <div class="hero-grid">
+        <div class="hero-left">
+          <span class="section-label">Supervision & Solutions Nouvelle Génération</span>
+          <h1 class="hero-title">
+            Propulsez vos projets avec la plateforme d'innovation numérique
+          </h1>
+          <p class="hero-subtitle">
+            Nous unifions le développement sur mesure, l'Intelligence Artificielle et la Cybersécurité pour automatiser vos opérations, guider vos équipes et protéger votre croissance.
+          </p>
+
+          <div class="hero-actions">
+            <a href="#contact" class="btn btn-blue open-modal-btn">Démarrer un projet</a>
+            <a href="#ecosysteme" class="btn btn-secondary">Découvrir l'écosystème</a>
+          </div>
+
+          <div class="hero-trust">
+            <div class="trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
+              <span>Cybersécurité certifiée</span>
+            </div>
+            <div class="trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
+              <span>Déploiement agile</span>
+            </div>
+            <div class="trust-item">
+              <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
+              <span>Accompagnement local</span>
+            </div>
+          </div>
         </div>
 
-        <div class="hero-trust">
-          <div class="trust-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 22s8-4 8-10V5l-8-3-8 3v7c0 6 8 10 8 10z"/></svg>
-            <span>Cybersécurité certifiée</span>
-          </div>
-          <div class="trust-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M13 2L3 14h9l-1 8 10-12h-9l1-8z"/></svg>
-            <span>Déploiement agile</span>
-          </div>
-          <div class="trust-item">
-            <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><circle cx="12" cy="12" r="10"/><path d="m9 12 2 2 4-4"/></svg>
-            <span>Accompagnement local</span>
+        <div class="hero-right">
+          <div class="hero-mockup-wrapper">
+            <div class="mockup-glow"></div>
+            <img src="assets/rames-dashboard-mockup.jpg" alt="Tableau de bord RAMES" class="hero-mockup-img">
           </div>
         </div>
       </div>
 
-      <div class="hero-right">
-        <div class="hero-mockup-wrapper">
-          <img src="assets/rames-dashboard-mockup.jpg" alt="Tableau de bord RAMES" class="hero-mockup-img">
+      <!-- Interactive Background Propositions Switcher -->
+      <div class="proposals-bar">
+        <span class="proposals-title">✨ Effets d'Arrière-plan Interactifs :</span>
+        <div class="proposals-buttons">
+          <button class="prop-btn active" data-mode="particles" id="btnModeParticles">
+            <span class="prop-icon">✨</span> Particules Antigravité
+          </button>
+          <button class="prop-btn" data-mode="cubes" id="btnModeCubes">
+            <span class="prop-icon">🧊</span> Cubes 3D Flottants
+          </button>
+          <button class="prop-btn" data-mode="dark" id="btnModeDark">
+            <span class="prop-icon">🌌</span> Cyber Dark Space
+          </button>
         </div>
       </div>
     </div>
@@ -422,6 +453,29 @@
               <span>Plus de temps libre, sérénité retrouvée et augmentation constante de la clientèle</span>
             </li>
           </ul>
+        </div>
+      </div>
+  <!-- Deep Space Antigravity Section (Direct Google Antigravity Image 2 Inspiration) -->
+  <section id="antigravity-deepspace" class="section-deepspace">
+    <canvas id="deepspaceCanvas" class="deepspace-canvas"></canvas>
+    <div class="container deepspace-content">
+      <h2 class="deepspace-title">Déployer la Suite RAMES pour votre Infrastructure</h2>
+      <div class="deepspace-buttons">
+        <a href="#contact" class="btn-deepspace-white open-modal-btn">Déployer sur le Cloud RAMES</a>
+        <a href="#contact" class="btn-deepspace-dark open-modal-btn">Architecture Hybride & On-Premise</a>
+      </div>
+      <div class="deepspace-features">
+        <div class="deepspace-feat-item">
+          <span class="feat-badge">SOUVERAIN</span>
+          <p>Données chiffrées & hébergées sous votre contrôle</p>
+        </div>
+        <div class="deepspace-feat-item">
+          <span class="feat-badge">IA HAUTE VITESSE</span>
+          <p>Moteurs de prédiction et traitement offline disponibles</p>
+        </div>
+        <div class="deepspace-feat-item">
+          <span class="feat-badge">ZÉRO INTERRUPTION</span>
+          <p>Continuité d'activité garantie 24/7</p>
         </div>
       </div>
     </div>
