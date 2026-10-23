@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 140 130" fill="none">
+  <defs>
+    <linearGradient id="ramesGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#00D2FF" />
+      <stop offset="100%" stop-color="#0080FF" />
+    </linearGradient>
+    <filter id="neonGlow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="3" result="blur" />
+      <feComposite in="SourceGraphic" in2="blur" operator="over" />
+    </filter>
+  </defs>
+
+  <!-- Robot Shield Head Contour -->
+  <g id="shield-head" stroke="url(#ramesGrad)" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Top opening & ears -->
+    <path d="M 45 14 C 45 14, 38 10, 26 18 C 17 24, 16 38, 16 52 C 16 68, 26 84, 70 102 C 114 84, 124 68, 124 52 C 124 38, 123 24, 114 18 C 102 10, 95 14, 95 14" />
+  </g>
+
+  <!-- Face elements inside screen: < o o > -->
+  <g id="face-elements" stroke="url(#ramesGrad)" stroke-width="4.5" stroke-linecap="round" stroke-linejoin="round" fill="none">
+    <!-- Left bracket < -->
+    <path d="M 38 46 L 31 52 L 38 58" />
+    <!-- Left Eye Dot -->
+    <circle cx="48" cy="52" r="3.5" fill="url(#ramesGrad)" stroke="none" />
+    <!-- Right Eye Dot -->
+    <circle cx="92" cy="52" r="3.5" fill="url(#ramesGrad)" stroke="none" />
+    <!-- Right bracket > -->
+    <path d="M 102 46 L 109 52 L 102 58" />
+    <!-- Subtle smile / connection bar -->
+    <path d="M 60 63 Q 70 70 80 63" stroke-width="3" />
+  </g>
+
+  <!-- RAMES Wordmark text -->
+  <text x="70" y="124" text-anchor="middle" font-family="'Orbitron', 'Outfit', 'Inter', sans-serif" font-weight="900" font-size="20" letter-spacing="4" fill="url(#ramesGrad)">RAMES</text>
+</svg>
